@@ -1,0 +1,23 @@
+.terminosContenedor {
+    position: relative;
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: justify;
+    p{ padding-top: 2em;}
+    .bold{
+      font-weight: bold;
+      text-align: center;
+    }
+    }
+  
+  
+  @media only screen and (max-width: 950px) {
+    .terminosContenedor{
+      width: 80%;
+    }
+  }

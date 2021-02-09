@@ -1,0 +1,433 @@
+
+#cantidad {
+  width: 40%;
+}
+
+
+// Primera seccion CARRUSEL
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.carrusel {
+  width: 95%;
+  padding-top: 50px;
+}
+.contenedorCarrusel {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  grid-gap: 30px;
+
+  .textoCarrusel {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    h1 {
+      font-size: 48px;
+    }
+    button {
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      background-color: #65a2ea;
+      border: 0;
+      border-radius: 8px;
+      padding: 5px 10px;
+      margin-top: 30px;
+    }
+  }
+  .imagenCarrusel {
+    img {
+      width: 100%;
+    }
+  }
+}
+.beneficios {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  margin: 80px auto;
+  text-align: center;
+
+  article {
+    padding: 30px;
+    p {
+      text-align: left;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+  }
+}
+.servicios {
+  background-color: rgba(121, 222, 167, 0.15);
+  text-align: center;
+  padding: 100px 0;
+  h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  .tipos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    width: 80%;
+    margin-top: 80px;
+    align-items: start;
+    article {
+      font-size: 20px;
+      padding: 30px 50px;
+      text-align: left;
+      background-color: #fff;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+      border-radius: 8px;
+      p {
+        color: black;
+      }
+      button {
+        border: 0;
+        width: 80%;
+        margin: 30px auto;
+        padding: 5px;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+    .primerTipo {
+      color: #ff8671;
+      button {
+        background-color: #ff8671;
+      }
+    }
+    .segundoTipo {
+      color: #79dea7;
+      button {
+        background-color: #79dea7;
+      }
+    }
+    .tercerTipo {
+      color: #65a2ea;
+      button {
+        background-color: #65a2ea;
+      }
+    }
+  }
+}
+.funcionamiento {
+  text-align: center;
+  margin-top: 80px;
+  h1 {
+    font-size: 48px;
+  }
+  .pasos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 70px;
+    width: 90%;
+    margin: 80px auto;
+    article {
+      font-size: 20px;
+      img {
+        margin: 20px 0;
+      }
+      h3 {
+        margin: 10px 0;
+      }
+    }
+  }
+}
+.contacto {
+  background-color: rgba(121, 222, 167, 0.15);
+  padding: 100px 0;
+  .contactanos {
+    display: grid;
+    padding-top: 80px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    width: 80%;
+    margin: auto;
+    .datos {
+      h1{
+        font-size: 40px;
+      }
+      p {
+        font-size: 24px;
+        margin: 20px 0;
+      }
+    }
+    .formulario {
+      form {
+        input,
+        textarea {
+          width: 100%;
+          padding: 20px;
+          border-radius: 8px;
+          background-color: #fff;
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+          border: 0;
+          margin: 10px 0;
+          font-size: 20px;
+        }
+        textarea {
+          height: 200px;
+        }
+        .botonEnviar {
+          text-align: right;
+          button {
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            background-color: #65a2ea;
+            border: 0;
+            border-radius: 8px;
+            padding: 5px 10px;
+            margin-top: 40px;
+          }
+        }
+      }
+    }
+  }
+}
+.pagos {
+  background-color: rgba(121, 222, 167, 0.15);
+  padding-top: 50px;
+  .card-errors{
+    margin-top: 2rem;
+  }
+  #precio{
+    font-weight: bold;
+    margin-top: 34px;
+    margin-left: 18px;
+  }
+  .formularioPago {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px 0;
+    .expDate{
+      min-width: 60%;
+      display: flex;
+    }
+
+    form {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      button{
+        background-color: #65a2ea;
+        border: 0;
+        width: 29%;
+        margin: 4px 0px 1px 200px;
+        padding: 5px;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+      }
+      input {
+        margin: 10px 0;
+        display: block;
+        padding: 10px 20px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+        border-radius: 8px;
+        width: 60%;
+        border: 0;
+      }
+      .expiration{
+        margin-right: 13px;
+      }
+    }
+    .datosPago {
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+      padding: 92px 60px 0px 59px;;
+      background-color: white;
+      width: 70%;
+
+      .imagensita{
+        height: 80px;
+        margin-left: 93px;
+        margin-top: -50px;
+
+      }
+      button {
+        background-color: #65a2ea;
+        border: 0;
+        width: 42%;
+        margin: 18px 178px;
+        padding: 5px;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+      }
+      ul {
+        list-style: none;
+        padding: 10px 20px;
+        border-bottom: 1px solid black;
+        li {
+          margin: 10px 0;
+        }
+        li:before{
+          color: #65a2ea;
+          content: '✓ ';
+        }
+      }
+    }
+  }
+}
+footer {
+  padding: 30px;
+  text-align: center;
+  h5 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1005px) {
+  .carrusel {
+    width: 100%;
+  }
+  .contenedorCarrusel {
+    grid-template-columns: 1fr;
+    .imagenCarrusel {
+      grid-row: 1;
+    }
+    .textoCarrusel {
+      align-items: center;
+      width: 80%;
+      margin: auto;
+      h1 {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .beneficios {
+    grid-template-columns: 1fr;
+    article {
+      p {
+        width: 50%;
+        margin: 30px auto;
+      }
+    }
+  }
+  .servicios {
+    .tipos {
+      grid-template-columns: 1fr;
+    }
+  }
+  .funcionamiento {
+    .pasos {
+      grid-template-columns: 1fr;
+    }
+  }
+  .contacto {
+    .contactanos {
+      grid-template-columns: 1fr;
+    }
+  }
+  .pagos {
+    .formularioPago {
+      grid-template-columns: 1fr;
+      grid-gap: 30px;
+    }
+    .datosPago {
+      margin: auto;
+      width: 60%;
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: 650px) {
+  .pagos .formularioPago .datosPago button {
+    background-color: #65a2ea;
+    border: 0;
+    width: 104%;
+    margin: 18px 1px;
+    padding: 5px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .pagos #precio {
+    font-weight: bold;
+    margin-top: 22px;
+    margin-left: -5px;
+  }
+  .pagos .formularioPago .datosPago ul {
+    list-style: none;
+    padding: 14px 0px;
+    border-bottom: 1px solid black;
+  }
+  .pagos .formularioPago .datosPago {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    padding: 36px 52px 18px 42px;
+    background-color: white;
+    width: 73%;
+  }
+  .pagos .formularioPago .datosPago .imagensita {
+    height: 49px;
+    margin-left: 56px;
+    margin-top: -43px;
+  }
+
+  .pagos .formularioPago form button {
+    background-color: #65a2ea;
+    border: 0;
+    width: 29%;
+    margin: 200% 0px 1px -17px;
+    padding: 5px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+  }
+
+
+  .contenedorCarrusel .textoCarrusel h1,
+  .servicios h1,
+  .funcionamiento h1 {
+    font-size: 30px;
+  }
+  .contacto {
+    .contactanos {
+      .datos {
+        h1,
+        p {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 350px) and (max-width: 400px) {
+  .pagos .formularioPago form button {
+      margin: 185% 2px 0px -8px;
+  }
+}
+
+@media only screen and (min-width: 410px) and (max-width: 450px) {
+  .pagos .formularioPago form button {
+      margin: 175% 2px 0px -8px;
+  }
+}
