@@ -172,7 +172,7 @@ export default class Home extends Component {
             <p>Crear y mantener tu inventario de computadoras con SafeTi es <b >totalmente gratis.</b >
             <br />Sin límite de tiempo y sin necesidad de ingresar tu tarjeta de crédito. </p>
             <button>
-              <a href="https://qrforce.mx/beta/create-account-cte?accountid=9">Crea cuenta SafeTi</a>
+              <a href="https://qrforce.mx/beta/create-account-cte?accountid=9">Crear cuenta SafeTi</a>
             </button>
           </div>
         </section>
