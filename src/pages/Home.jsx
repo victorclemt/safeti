@@ -122,7 +122,8 @@ export default class Home extends Component {
         </section>
         <section className="servicios" id="servicios">
           <h1>Conoce nuestros servicios.</h1>
-          <p>Nuestros servicios empaquetados se adaptan a tus necesidades.</p>
+          <p>Nuestros servicios empaquetados se adaptan a tus necesidades, 
+          <br /> todos nuestros precios son mensuales y cubren a 1 computadora.</p>
           <div className="contenedor tipos">
             <article className="primerTipo">
               <h3>Safeti basic</h3>
@@ -214,8 +215,7 @@ export default class Home extends Component {
           <div className="contenedor contactanos">
             <div className="datos">
               <h1>Ponte en contacto con nosotros.</h1>
-              <p>T.88 4657 234</p>
-              <p>C.be@safeti.mx</p>
+              <p>be@safeti.mx</p>
             </div>
             <div className="formulario">
               <form onSubmit={(e) => this.sendEmail(e)}>
@@ -233,7 +233,7 @@ export default class Home extends Component {
           </div>
         </section>
         <footer>
-          <h5>©Safeti 2020 – <a href="/aviso">Aviso de privacidad</a></h5>
+          <h5>©Safeti 2021 – <a href="/aviso">Aviso de privacidad</a></h5>
         </footer>
       </>
     );

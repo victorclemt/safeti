@@ -36,7 +36,7 @@ export default class Aviso extends Component {
           <p>nEl presente Aviso de Privacidad ha sido modificado el día dos del mes de mayo del año dos mil veinte.</p>
         </div>
         <footer>
-          <h5>©Safeti 2020 – Aviso de privacidad</h5>
+          <h5>©Safeti 2021 – Aviso de privacidad</h5>
         </footer>
       </>
     );

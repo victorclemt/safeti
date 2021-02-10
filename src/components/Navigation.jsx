@@ -41,7 +41,7 @@ export default class Navigation extends Component {
                 <a href="../#contacto"><strong>Contacto</strong></a>
                 </li>
                 <li>
-                <a href="https://qrforce.mx/app/login_client?accountid=9" className="loginColor"><strong>Login</strong></a>
+                <a href="https://qrforce.mx/beta/login_client?accountid=9&p=74" className="loginColor"><strong>Login</strong></a>
                 </li>
                 <li><a href="https://www.facebook.com/besafeti" className="socialColor" target="_blank" rel="noopener noreferrer"><FaFacebookF/></a></li>
                 <li><a href="https://www.instagram.com/besafeti/" className="socialColor" target="_blank" rel="noopener noreferrer"><FaInstagram /></a></li>
