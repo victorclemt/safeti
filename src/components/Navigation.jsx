@@ -66,7 +66,7 @@ export default class Navigation extends Component {
                 <a href="../#contacto"><strong>Contacto</strong></a>
                 </li>
                 <li>
-                <a href="https://qrforce.mx/app/" className="loginColor"><strong>Login</strong></a>
+                <a href="https://qrforce.mx/beta/login_client?accountid=9&p=74" className="loginColor"><strong>Login</strong></a>
                 </li>
               </ul>
             </div>
