@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import Logo from "../assets/images/safetilogo.png";
 import "../styles/Navigation.scss";
 import Menu from "../assets/images/menu.png";
-import { FaInstagram } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
 
 
 
@@ -43,9 +40,11 @@ export default class Navigation extends Component {
                 <li>
                 <a href="https://qrforce.mx/beta/login_client?accountid=9&p=74" className="loginColor"><strong>Login</strong></a>
                 </li>
-                <li><a href="https://www.facebook.com/besafeti" className="socialColor" target="_blank" rel="noopener noreferrer"><FaFacebookF/></a></li>
-                <li><a href="https://www.instagram.com/besafeti/" className="socialColor" target="_blank" rel="noopener noreferrer"><FaInstagram /></a></li>
-                <li><a href="https://www.linkedin.com/company/besafeti" className="socialColor" target="_blank" rel="noopener noreferrer"><FaLinkedinIn/></a></li>
+                <li>
+                  <button>
+                    <a href="https://qrforce.mx/beta/create-account-cte?accountid=9">Crea tu cuenta Safeti</a>
+                  </button>
+                </li>
               </ul>
             </div>
             <div className="contenedorMovil">
@@ -67,6 +66,11 @@ export default class Navigation extends Component {
                 </li>
                 <li>
                 <a href="https://qrforce.mx/beta/login_client?accountid=9&p=74" className="loginColor"><strong>Login</strong></a>
+                </li>
+                <li>
+                  <button>
+                    <a href="https://qrforce.mx/beta/create-account-cte?accountid=9">Crea tu cuenta Safeti</a>
+                  </button>
                 </li>
               </ul>
             </div>

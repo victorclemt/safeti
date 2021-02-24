@@ -30,6 +30,19 @@ nav {
           font-size: 15px;
         }
       }
+      button {
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        background-color: #65a2ea;
+        border: 0;
+        border-radius: 8px;
+        padding: 5px 10px;
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
     }
     .contenedorMovil {
       position: relative;
@@ -57,6 +70,19 @@ nav {
           text-align: right;
           display: block;
           margin: 10px 0;
+        }
+        button {
+          font-size: 15px;
+          font-weight: bold;
+          color: white;
+          background-color: #65a2ea;
+          border: 0;
+          border-radius: 8px;
+          padding: 5px 10px;
+          a {
+            text-decoration: none;
+            color: white;
+          }
         }
       }
     }

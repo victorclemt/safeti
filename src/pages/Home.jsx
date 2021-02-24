@@ -15,6 +15,9 @@ import Elipse5 from "../assets/images/Ellipse5.png";
 import Elipse6 from "../assets/images/Ellipse6.png";
 import Elipse7 from "../assets/images/Ellipse7.png";
 import "../styles/Home.scss";
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 export default class Home extends Component {
 
@@ -65,7 +68,9 @@ export default class Home extends Component {
             <div className="contenedorCarrusel">
               <div className="textoCarrusel">
                 <h1> Soporte en tu casa y oficina.</h1>
-                <button>Conoce nuestros servicios</button>
+                <button>
+                  <a href="https://qrforce.mx/beta/create-account-cte?accountid=9">Crea tu cuenta Safeti</a>
+                </button>
               </div>
               <div className="imagenCarrusel">
                 <img src={Carrusel1} alt="Carrusel1" />
@@ -74,7 +79,9 @@ export default class Home extends Component {
             <div className="contenedorCarrusel">
               <div className="textoCarrusel">
                 <h1> En la nueva normalidad no arriesgues tu seguridad.</h1>
-                <button>Conoce nuestros servicios</button>
+                <button>
+                  <a href="https://qrforce.mx/beta/create-account-cte?accountid=9">Crea tu cuenta Safeti</a>
+                </button>
               </div>
               <div className="imagenCarrusel">
                 <img src={Carrusel2} alt="Carrusel1" />
@@ -83,7 +90,9 @@ export default class Home extends Component {
             <div className="contenedorCarrusel">
               <div className="textoCarrusel">
                 <h1> Mantén tu equipo protegido, en todo lugar.</h1>
-                <button>Conoce nuestros servicios</button>
+                <button>
+                  <a href="https://qrforce.mx/beta/create-account-cte?accountid=9">Crea tu cuenta Safeti</a>
+                </button>
               </div>
               <div className="imagenCarrusel">
                 <img src={Carrusel3} alt="Carrusel1" />
@@ -92,7 +101,9 @@ export default class Home extends Component {
             <div className="contenedorCarrusel">
               <div className="textoCarrusel">
                 <h1> Asegura que tu información este a salvo.</h1>
-                <button>Conoce nuestros servicios</button>
+                <button>
+                  <a href="https://qrforce.mx/beta/create-account-cte?accountid=9">Crea tu cuenta Safeti</a>
+                </button>
               </div>
               <div className="imagenCarrusel">
                 <img src={Carrusel4} alt="Carrusel1" />
@@ -130,11 +141,11 @@ export default class Home extends Component {
               <p>Instalación Inicial</p>
               <p>Fire Wall</p>
               <p>Antivirus</p>
-              <p>SafeTi App</p>
+              <p>Safeti App</p>
               <p>Descuento de 15% soporte técnico por hora</p>
               <h3>$ 169 + iva</h3>
               <button>
-                <a href="https://qrforce.mx/beta/login_client?accountid=9&p=51">Contrátanos</a>
+                <a href="https://qrforce.mx/beta/create-account-cte?accountid=9">Crea tu Cuenta</a>
               </button>
             </article>
             <article className="segundoTipo">
@@ -143,11 +154,11 @@ export default class Home extends Component {
               <p>Fire Wall</p>
               <p>Antivirus</p>
               <p>Respaldo semanal</p>
-              <p>SafeTi App</p>
+              <p>Safeti App</p>
               <p>Descuento de 25% soporte técnico por hora</p>
               <h3>$ 199 + iva</h3>
               <button>
-                <a href="https://qrforce.mx/beta/login_client?accountid=9&p=74">Contrátanos</a>
+                <a href="https://qrforce.mx/beta/create-account-cte?accountid=9">Crea tu Cuenta</a>
               </button>
             </article>
             <article className="tercerTipo">
@@ -160,20 +171,20 @@ export default class Home extends Component {
                 Mantenimiento <br />
                 preventivo trimestral
               </p>
-              <p>SafeTi App</p>
+              <p>Safeti App</p>
               <p>Descuento de 35% soporte técnico por hora</p>
               <h3>$ 329 + iva</h3>
               <button>
-                <a href="https://qrforce.mx/beta/login_client?accountid=9&p=53">Contrátanos</a>
+                <a href="https://qrforce.mx/beta/create-account-cte?accountid=9">Crea tu Cuenta</a>
               </button>
             </article>
           </div>
           <div className="contenedor cuenta">
-            <h1>Crea tu cuenta SafeTi hoy</h1>
+            <h1>Crea tu cuenta Safeti hoy</h1>
             <p>Crear y mantener tu inventario de computadoras con SafeTi es <b >totalmente gratis.</b >
             <br />Sin límite de tiempo y sin necesidad de ingresar tu tarjeta de crédito. </p>
             <button>
-              <a href="https://qrforce.mx/beta/create-account-cte?accountid=9">Crear cuenta SafeTi</a>
+              <a href="https://qrforce.mx/beta/create-account-cte?accountid=9">Crear cuenta Safeti</a>
             </button>
           </div>
         </section>
@@ -183,7 +194,7 @@ export default class Home extends Component {
             <article>
               <img src={Elipse5} alt="Elipse" />
 
-              <h3>Crea tu cuenta SafeTi </h3>
+              <h3>Crea tu cuenta Safeti </h3>
               <p>
                 Desde tu cuenta podrás hacer inventario de tus equipos de 
                 manera gratuita, contratar el paquete que más se acomode 
@@ -216,6 +227,11 @@ export default class Home extends Component {
             <div className="datos">
               <h1>Ponte en contacto con nosotros.</h1>
               <p>be@safeti.mx</p>
+              <ul>
+                <li><a href="https://www.facebook.com/besafeti" className="socialColor" target="_blank" rel="noopener noreferrer"><FaFacebookF/></a></li>
+                <li><a href="https://www.instagram.com/besafeti/" className="socialColor" target="_blank" rel="noopener noreferrer"><FaInstagram /></a></li>
+                <li><a href="https://www.linkedin.com/company/besafeti" className="socialColor" target="_blank" rel="noopener noreferrer"><FaLinkedinIn/></a></li>
+              </ul>
             </div>
             <div className="formulario">
               <form onSubmit={(e) => this.sendEmail(e)}>
