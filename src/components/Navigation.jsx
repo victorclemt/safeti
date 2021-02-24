@@ -42,7 +42,7 @@ export default class Navigation extends Component {
                 </li>
                 <li>
                   <button>
-                    <a href="https://qrforce.mx/beta/create-account-cte?accountid=9">Crea tu cuenta Safeti</a>
+                    <a href="https://qrforce.mx/beta/create-account-cte?accountid=9">Crea tu Cuenta</a>
                   </button>
                 </li>
               </ul>
@@ -69,7 +69,7 @@ export default class Navigation extends Component {
                 </li>
                 <li>
                   <button>
-                    <a href="https://qrforce.mx/beta/create-account-cte?accountid=9">Crea tu cuenta Safeti</a>
+                    <a href="https://qrforce.mx/beta/create-account-cte?accountid=9">Crea tu Cuenta</a>
                   </button>
                 </li>
               </ul>
